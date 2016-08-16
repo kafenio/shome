@@ -1,0 +1,127 @@
+ul {
+    clear: both;
+}
+
+.glass {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    content: '';
+    background-color: rgba(0,0,0,.3);
+    z-index: 10000;
+}
+
+.glass>.card {
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+    width: 95%;
+    text-align:center;
+    vertical-align: middle;
+    margin-top: 2%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255,255,255,1);
+}
+form.main {
+    text-align:left;
+}
+.con {
+    position: relative;
+    top: 45px;
+    right: 0px;
+    left: 0px;
+    bottom: 51px;
+}
+.input-row {
+    height: auto;
+}
+.con > div {
+    z-index: 9999;
+}
+.bar-header-secondary {
+    position: relative;
+    top:45px;
+}
+.bar-header-secondary>input {
+    margin-top: 6px;
+    height: 31px;
+}
+
+.bar-header-secondary~div.scroller.con {
+    top: 88px;
+}
+
+.table-view {
+    margin: 0 !important;
+    border: none;
+}
+
+.details h1 {
+    padding-top: 16px;
+    font-size: 18px;
+}
+
+.media-object {
+    width: 42px;
+    height: 42px;
+    border-radius: 25px;
+}
+
+.scroller {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    position: absolute;
+    top: 45px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.warning {
+    border: 2px solid #d9534f;
+    background-color: #d9534f;
+}
+
+.hidden {
+    display: none;
+}
+
+.smap > div.leaflet-container {
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+
+#fullmap { 
+    position: absolute;
+    top: 45px;
+    right: 0px;
+    left: 0px;
+    bottom: 51px;
+    z-index: 999;
+}
+
+map#tourmap { 
+    position: absolute;
+    top: 45px;
+    right: 0px;
+    left: 0px;
+    bottom: 51px;
+    z-index: 999;
+}
+
+map#mainmap {
+    position: absolute;
+    top: 114px;
+    bottom: 50px;
+    width: 100%;
+}
+
+div.leaflet-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}

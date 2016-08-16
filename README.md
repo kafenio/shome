@@ -1,5 +1,5 @@
 # Disclaimer
-	This Project is still a work in progress and a spare time project. If you find bugs, feel welcome to submit a pull-request (which might take some time to integrate) or wait until it is fixed (which might take some time, too).
+This Project is still a work in progress and a spare time project. If you find bugs, feel welcome to submit a pull-request (which might take some time to integrate) or wait until it is fixed (which might take some time, too).
 
 # Prerequisites:
 	sudo npm install riot -g

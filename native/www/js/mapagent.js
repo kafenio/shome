@@ -44,7 +44,7 @@ MapAgent.prototype = {
 				    app.trigger('updatePosition', { 'latitude': result.center.lat, 'longitude': result.center.lng }, result.html);
 				};
 			}
-			
+
 			if(this.defaultpos && this.defaultpos.latitude) {
 			 	this.marker = this.addMarker(this.defaultpos, this.desc);
 			}
@@ -75,8 +75,8 @@ MapAgent.prototype = {
 			desc = "I'm here";
 		}
 		bounds.push([lat, lon]);
-		
-		var startIcon = L.icon({ 
+
+		var startIcon = L.icon({
 			iconUrl: 'assets/css/images/marker-icon.png',
 			iconSize: [33,50],
 			iconAnchor: [15,45],
@@ -91,10 +91,10 @@ MapAgent.prototype = {
 			marker = L.marker([lat,lon],{id: "posm", draggable: true});
 			marker.on('dragend', this.updateMarkerPos);
 		}
-		
+
 		marker.setIcon(startIcon).bindPopup("<b>"+desc+"</b><br/>"+millis2date(pos.time)+"<br/>"+pos2text(lat, lon));
 		marker.addTo(this.map);
-		
+
 		this.map.fitBounds(bounds);
 
 		marker.openPopup();

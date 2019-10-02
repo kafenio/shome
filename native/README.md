@@ -3,7 +3,7 @@
 # Prerequisites:
 
 		# install ionic (automatic splashscreen and icon generation)
-		sudo npm install -g ionic
+		npm install -g ionic
 
 		# install social message plugin (intent generator for ios and android)
 		cordova plugin add https://github.com/leecrossley/cordova-plugin-social-message.git

@@ -1,0 +1,30 @@
+{
+  "name": "shome",
+  "version": "1.0.0",
+  "description": "ShoMe Locations is an App to show where you are and remember where you were",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kafenio/shome.git"
+  },
+  "author": "Karsten Pawlik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kafenio/shome/issues"
+  },
+  "homepage": "https://github.com/kafenio/shome#readme",
+  "dependencies": {
+    "@riotjs/cli": "^4.0.2",
+    "@riotjs/compiler": "^4.4.3",
+    "bootstrap": "^4.3.1",
+    "browser-pack": "^6.1.0",
+    "http-server": "^0.11.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0",
+    "riot": "^4.6.2",
+    "riotify": "^4.0.0"
+  }
+}

@@ -19,11 +19,10 @@
   "dependencies": {
     "@riotjs/cli": "^4.0.2",
     "@riotjs/compiler": "^4.4.3",
-    "bootstrap": "^4.3.1",
     "browser-pack": "^6.1.0",
     "http-server": "^0.11.1",
     "jquery": "^3.4.1",
-    "popper.js": "^1.15.0",
+    "materialize-css": "^1.0.0-rc.2",
     "riot": "^4.6.2",
     "riotify": "^4.0.0"
   }
